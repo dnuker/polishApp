@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MyApplication" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+            <item name="colorPrimary">#B90000</item>
+            <item name="trackThickness">50dp</item>
+            <item name="thumbIconSize">24dp</item>
+            <item name="trackTint">@color/track_selector</item>
+            <item name="thumbTint">@color/thumb_selector</item>
+            <item name="android:showText">false</item>
+        <item name="android:textColorPrimary">#000000</item>
+        <item name="android:textColorLink">#000080</item>
+        <item name="android:textColorSecondary">#000000</item>
+        <item name="android:fontFamily">@font/opensanshebrew_bold</item>
+    </style>
+
+    <style name="Theme.MyApplication" parent="Base.Theme.MyApplication" />
+</resources>
